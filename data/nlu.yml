@@ -1,0 +1,30 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - 你好
+    - 哩賀
+    - 嗨
+
+- intent: goodbye
+  examples: |
+    - 掰
+    - 掰掰
+
+- intent: affirm
+  examples: |
+    - 對
+    - 沒錯
+
+- intent: mood_great
+  examples: |
+    - 完美
+
+- intent: mood_unhappy
+  examples: |
+    - 太糟糕惹
+
+- intent: bot_challenge
+  examples: |
+    - 你是機器人?
